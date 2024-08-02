@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Finance Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Personal Finance Tracker</h1>
+        <div id="form">
+            <input type="number" id="amount" placeholder="Amount" required>
+            <button id="choose-transaction-type">Choose Transaction Type</button>
+            <input type="text" id="category" placeholder="Category" required>
+            <input type="text" id="description" placeholder="Description" required>
+            <button id="add-transaction">Add Transaction</button>
+        </div>
+        <h2>Transactions</h2>
+        <ul id="transaction-list"></ul>
+        <h2>Summary</h2>
+        <div id="summary">
+            <p>Total Income: <span id="total-income">0</span></p>
+            <p>Total Expense: <span id="total-expense">0</span></p>
+            <p>Net Savings: <span id="net-savings">0</span></p>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div id="transaction-type-modal" class="modal">
+        <div class="modal-content">
+            <h2>Select Transaction Type</h2>
+            <button id="received-button">Received</button>
+            <button id="spent-button">Spent</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
