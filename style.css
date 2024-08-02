@@ -1,0 +1,70 @@
+body{
+    background-color: #87986a;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.Generator{
+    background-color: #b5c99a;
+    width: 250px;
+    margin: 150px auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+div.Password{
+    display: grid;
+    grid-template-columns: auto min-content;
+    border-radius: 10px;
+    overflow: hidden;
+}
+div.Password input{
+    padding: 7px 10px;
+    background-color: whitesmoke;
+    border: 0;
+    color: black
+}
+button{
+    background-color: rgb(7, 154, 12);
+    color: black;
+    text-transform: uppercase;
+    padding: 5px 15px;
+    border: 0;
+    border-radius: 10px;
+}
+div.Password button{
+    border-radius: 0;
+}
+div.range{
+    margin: 10px 0;
+    display: grid;
+    grid-template-columns: 1fr min-content;
+}
+div.range span{
+    background-color: #a2b38c;
+    padding: 10px;
+    margin-left: 20px;
+    min-width: 30px;
+    text-align: center;
+    border-radius: 10px;
+}
+div.options{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+div.options label{
+    display: block;
+    background-color: #b5c99a;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: sans-serif;
+}
+button.generator{
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+}
+h1{
+    text-align: center;
+    color: black;
+}
